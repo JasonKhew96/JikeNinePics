@@ -1,0 +1,16 @@
+  {
+    "name": "JikeNinePics",
+    "version": "0.1",
+    "description": "Jike nine pictures",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "permissions": [
+          "webRequest",
+          "webRequestBlocking",
+          "https://web.okjike.com/*",
+          "https://app.jike.ruguoapp.com/1.0/*"
+        ],
+    "manifest_version": 2
+  }
